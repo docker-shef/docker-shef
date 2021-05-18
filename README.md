@@ -43,7 +43,7 @@ To add slave nodes to master set `SLAVE` environment variable to true and fill \
 ```
 docker run -d --name bouter -e HOST_IP=<SLAVE HOST IPv4> \
   -e SLAVE=true \
-  -e MASTER_HOST=<MASTER HOST IPv4>
+  -e MASTER_HOST=<MASTER HOST IPv4> \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -l shef-bouter=true seljuke/bouter:latest
 ```
