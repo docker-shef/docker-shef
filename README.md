@@ -4,7 +4,7 @@ Docker-shef is a POC system for managing docker containers across multiple hosts
 
 Docker-shef build with nodejs v14 and uses docker API on hosts to manage containers. System can tolerate lost of any slave docker host and in case of failure containers will be migrated to health slaves.
 
-This system has inspired from Kubernetes architecture and works with Master-Slave design to manage docker hosts. Docker-shef consist of 4 components Bouter, Conducktor, shefRunner and Redis.
+This system has inspired from Kubernetes architecture and works with Master-Slave design to manage docker hosts. Docker-shef consist of 4 components Bouter, Conducktor, shefRunner and Redis. For component specific documentation you can visit the other repositories.
 
 ![Docker-Shef Design](./image.png)
 
